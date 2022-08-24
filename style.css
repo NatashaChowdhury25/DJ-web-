@@ -1,0 +1,34 @@
+.heading{
+    font-size: 13px;
+    width:100%;
+    margin:0px;
+    }
+    
+    .note{
+    font-family: 19px;
+    color:black;
+    }
+    
+    body{
+    background-size: cover;
+    }
+
+    canvas{
+        border: 5px solid white;
+        border-radius: 20px;
+        animation-name: example;
+        animation-duration: 4s;
+        margin-top: 300px;
+        animation-iteration-count: infinite;
+        }
+        
+        @keyframes example{
+        from{box-shadow: 1px 1px 38px rgb(38, 202, 194);}
+        to{box-shadow: 1px 1px 38px rgb(172, 47, 95);}
+        }
+
+        .play_button{
+        width:155px;
+        font-size:25px;
+    }
+
